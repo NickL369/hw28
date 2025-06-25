@@ -1,0 +1,29 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+**/runConfigurations/
+
+# Build output
+out/
+build/
+
+# Logs
+logs/
+*.log
+
+# Compiled class and JAR files
+*.class
+*.jar
+
+# Database drivers
+postgresql-*.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.rej
