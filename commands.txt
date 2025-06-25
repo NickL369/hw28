@@ -1,0 +1,15 @@
+CREATE DATABASE sales_database;
+
+
+CREATE TABLE sales (
+    id SERIAL PRIMARY KEY,
+    product VARCHAR(100),
+    price NUMERIC,
+    quantity INTEGER
+);
+
+
+INSERT INTO sales (product, price, quantity) VALUES ('Laptop', 1000, 5);
+INSERT INTO sales (product, price, quantity) VALUES ('Phone', 700, 3);
+INSERT INTO sales (product, price, quantity) VALUES ('Tablet', 500, 2);
+INSERT INTO sales (product, price, quantity) VALUES ('Printer', 300, 4);
